@@ -1,0 +1,533 @@
+body {
+    padding:0;
+    margin:0;
+} 
+
+
+@font-face {
+    font-family: 'flamebold';
+    src: url('./font/flamebold-webfont.woff2') format('woff2'),
+        url('./font/flamebold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family:'flamecondensed';
+    src:url('./font/flamecondensed-webfont.woff2') format('woff2'),
+        url('./font/flamecondensed-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family:'flameregular';
+    src:url('./font/flameregular-webfont.woff2') format('woff2'),
+        url('./font/flameregular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family:'flamesans';
+    src:url('./font/flamesans-webfont.woff2') format('woff2'),
+        url('./font/flamesans-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+}
+
+header {
+    height: 80px;
+    background-color: rgb(252, 237, 221);
+      position:fixed;
+      width:100%;
+      padding-top:0px;
+      z-index: 2;
+  }
+
+  .bar {
+    top:39px;
+    color:rgb(104, 26, 26);
+    position: absolute;
+    left:20px;
+    float:left;
+}
+
+.nav ul {
+    top:20px;
+    float:left;
+    position: relative;
+}
+
+.nav ul li {
+    padding-left: 10px;
+    list-style: none;
+    display:inline-block;
+    padding-right: 12px;
+}
+
+.nav ul li a {
+    color:rgb(104, 26, 26);
+    text-decoration: none;
+    font-weight:100;
+    font-size: 18px;
+    font-family: 'flameregular';
+  }
+
+  .nav ul li a:hover {
+    color: red;
+}
+
+ .sort {
+    position: absolute;
+    top: 39px;
+    left:560px;
+  }
+  .sort:hover {
+  color:red;
+  }
+
+  #king{
+    position:absolute;
+    float:right; 
+    left:740px;
+    top:2px;
+  }
+
+  #locate{
+    position: absolute;
+    float:right;
+    left:960px;
+    top:42px;
+}
+
+#c{
+    position:absolute;
+    float:right;
+    left:985px;
+    top:21px;
+    }
+
+    #c p a {
+        color:rgb(117, 52, 52);
+        text-decoration:none;
+        font-family:'flameregular';
+        font-size: 18px;
+        font-weight: lighter;
+        letter-spacing: 0.5px;
+    }
+
+    #cc {
+        position: absolute;
+        left: 1160px;
+        top:23px;
+        display:inline-block;
+        white-space: nowrap;
+  }
+  #cc p a {
+        position:absolute;
+        color:rgb(107, 28, 28);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 560;
+        font-size:15px;
+    }
+
+    .d{
+        position: absolute;
+        float: right;
+        background-color: rgb(196, 3, 3);
+        padding: 6px 22px;
+        top:30px;
+        left:1340px;
+        text-align: center;
+        border-radius: 18px;
+        }
+
+        .d a {
+            color:white;
+           font-family:'flameregular';
+           text-decoration: none;
+           
+           float:right;
+           font-size:15px;
+           letter-spacing: 1.0px;
+            }
+      .d:hover{
+          background-color:rgb(153, 23, 23); 
+      }
+
+      .e{
+        position:absolute;
+        float:right;
+        background-color:rgb(68, 9, 9);
+        padding:6px 23px;
+        top:30px;
+        left:1460px;
+        text-align:center;
+        border-radius:18px;
+    }
+
+    .e a {
+        color:beige;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    section {
+        position:relative;
+        height: 1300px;
+        background-color:rgb(248, 238, 225);
+      }
+
+    .perks  {
+        position: absolute;
+        padding-top:180px;
+        left:230px;
+    }
+    .perks img {
+        border-radius: 25px 15px 0 0px;
+    }
+
+    .perks2 {
+        position: absolute;
+        left:230px;
+        top:479px;
+        padding:73px 275px;
+        background-color: white;
+        border-radius: 0 0 20px 20px;
+    }
+    .perks2 h3 {
+        position: absolute;
+        left:20px;
+        top:0.1mm ;
+        color:rgb(90, 14, 14);
+        font-family:flameregular;
+    }
+    .perks2  p {
+        position: absolute;
+        left:22px;
+        top:40px;
+        color:rgb(90, 14, 14);
+        font-family:'flamesans';
+        font-weight:lighter;
+        font-size: 13px;
+        }
+
+        .a1 {
+            text-decoration:underline ;
+            color:rgb(104, 26, 26)
+        }
+    
+
+        .rex2  {
+            position: absolute;
+            padding:13px 26px;
+            top:570px;
+            left:610px;
+            border:1px solid orangered;
+            text-align: center;
+            border-radius:30px;
+        }
+             
+        .rex2 a {
+            text-decoration: none;
+            font-family:'flameregular';
+            color:orangered;
+    
+        }
+    
+        .rex2:hover {
+            background-color:rgb(250, 228, 232);
+        }
+
+    .free {
+        position:absolute;
+        left:796px;
+        padding-top:180px; 
+    }
+
+    .free img {
+        border-radius: 15px 15px 0 0px;
+    }
+
+    .free2 {
+        position: absolute;
+        left:796px;
+        top:479px;
+        padding:73px 275px;
+        background-color: white;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .free2 h3 {
+        position: absolute;
+        left:20px;
+        top:0.1rem;
+        color:rgb(90, 14, 14);
+        font-family:flameregular;
+    }
+.free2  p {
+    position: absolute;
+    left:22px;
+    top:80px;
+    color:rgb(90, 14, 14);
+    font-family:'flamesans';
+    font-weight:lighter;
+    font-size: 13px;
+    }
+
+    .a2 {
+        text-decoration:underline ;
+        color:rgb(104, 26, 26)
+    }
+
+    .free-2 a {
+        position: absolute;
+        padding:13px 26px;
+        top:570px;
+        left:1175px;
+        border:1px solid orangered;
+        text-align: center;
+        border-radius:30px;
+    }
+
+    .free-2 a {
+        text-decoration: none;
+        font-family:'flameregular';
+        color:orangered;
+     }
+
+     .free-2 a:hover {
+        background-color:rgb(250, 228, 232);
+    }
+
+    .stay {
+        position:absolute;
+        left:230px;
+        padding-top:642px;
+    }
+
+    .stay img {
+        border-radius: 15px 15px 0 0px;
+    }
+
+    .stay2 {
+        position: absolute;
+        left:230px;
+        top:942px;
+        padding:73px 275px;
+        background-color: white;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .stay2 h3 {
+        position: absolute;
+        left:20px;
+        top:0.1mm ;
+        color:rgb(90, 14, 14);
+        font-family:flameregular;
+    }
+.stay2  p {
+    position: absolute;
+    left:22px;
+    top:40px;
+    color:rgb(90, 14, 14);
+    font-family:'flamesans';
+    font-weight:lighter;
+    font-size: 13px;
+    }
+
+    a1 {
+        text-decoration:underline ;
+        color:rgb(104, 26, 26)
+    }
+
+    .stay-2  {
+        position: absolute;
+        padding:13px 26px;
+        top:1030px;
+        left:610px;
+        border:1px solid orangered;
+        text-align: center;
+        border-radius:30px;
+    }
+         
+    .stay-2 a {
+        text-decoration: none;
+        font-family:'flameregular';
+        color:orangered;
+
+    }
+
+    .stay-2:hover {
+        background-color:rgb(250, 228, 232);
+    }
+
+    .live {
+        position:absolute;
+        left:796px;
+        top:642px;
+        margin:auto;  
+    }
+    .live img {
+        border-radius: 15px 15px 0 0px;
+    }
+
+    .live2 {
+        position: absolute;
+        left:796px;
+        top:942px;
+        padding:73px 275px;
+        background-color: white;
+        border-radius: 0 0 20px 20px;
+    }
+    .live2 h3 {
+            position: absolute;
+            left:20px;
+            top:0.1rem;
+            color:rgb(90, 14, 14);
+            font-family:flameregular;
+        }
+    .live2  p {
+        position: absolute;
+        left:22px;
+        top:36px;
+        color:rgb(90, 14, 14);
+        font-family:'flamesans';
+        font-weight:lighter;
+        font-size: 13px;
+        line-height: 1.4;
+        }
+
+    .a2 {
+        text-decoration:underline ;
+        color:rgb(104, 26, 26)
+    }
+
+    .live-2  {
+        position: absolute;
+        padding:13px 23px;
+        top:1030px;
+        left:1200px;
+        border:1px solid orangered;
+        text-align: center;
+        border-radius:30px;
+    }
+
+    .live-2 .order {
+        text-decoration: none;
+        font-family:'flameregular';
+        color:orangered;
+    }
+
+    .live-2:hover {
+        background-color:rgb(250, 228, 232);
+    }
+
+    .menu img{
+        position:absolute;
+        top: 1190px;
+        z-index: 1;
+        left:570px;
+       }
+
+       main {
+        position:relative;
+        background-color:rgb(235, 220, 203);
+        height:450px;
+        opacity:90%
+    }   
+
+    .save {
+        left:1050px;
+        color:rgb(74, 9, 9);
+        font-family: 'flamebold';
+        position: absolute;
+        font-size: 55px;
+        top:50px;
+       }
+
+       .play img {
+        position: absolute;
+        left:1220px;
+        top:273px;
+    }
+   
+    .app img {
+        position:absolute;
+        left:1063px;
+        top:233px;
+    }
+
+    .words p {
+        position: absolute;
+        top:350px;
+        left:1050px;
+        font-family: 'flamesans';
+        color:rgb(104, 26, 26);
+        white-space: nowrap;
+        font-size:13px ;
+        line-height: 1.5;
+    }
+
+    footer {
+        background-color: rgb(49, 7, 7);
+        height:600px;
+        
+    }
+
+    .begin {
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        padding-top: 100px;
+        /* width:100%; */
+        /* margin: auto auto; */
+    }
+    
+    .one h2 {
+     color:white;
+     font-size: 25px;
+     font-family:'flameregular';
+    } 
+    
+    .one ul {
+    padding-left: 110px;
+    
+    }
+    .one li {
+        list-style:none;
+        text-align: left;
+        /* margin-left:55px;
+        margin-right:90px; */
+       
+    }
+    
+    .one li a {
+        text-decoration: none;
+        color:rgb(250, 228, 232);
+        line-height: 1.5;
+        font-family:'flamesans';
+    }
+    
+    .one li a:hover {
+        text-decoration: underline;
+    }
+    
+    hr {
+        width:1350px;
+        margin-top: 400px;
+        position: absolute;
+        margin-left: 110px;
+    } 
+    
+   .l1 {
+       margin-top: 420px;
+       margin-left: 1280px;
+       display:inline-block;
+       color:white;
+       position:absolute;
+       padding-left: 40px;    
+}
+ .l1 a {
+     color:white;
+ }
+
+ .li a:hover {
+     color: red;
+     
+ }
